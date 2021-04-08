@@ -29,5 +29,10 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
+    'vk' => [
+        'url' => env('VK_API_URL','https://api.vk.com/method'),
+        'token' => env('VK_API_ACCESS_TOKEN'),
+        'version' => env('VK_API_VERSION', '5.130'),
+    ],
 
 ];
